@@ -1,0 +1,48 @@
+body{
+    background: url("images/claculator-background.jpg");
+}
+.container-fluid{
+    text-align: center;
+    border-radius: 9px;
+    border-bottom: 2px solid silver;
+}
+.container{
+    background-color:grey;
+    width: 70vw;
+    margin-top: 50px;
+    height: 500px;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+#row-text{
+    background-color: aliceblue;
+   position: relative;
+   top: 20px;
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+    border-style: none;
+     overflow-wrap: anywhere; 
+     padding: 10px;  
+}
+#row-text:focus{
+    outline: none;
+}
+.table-content{
+   margin-top: 65px;
+   align-content: center;
+}
+input[type="button"]{
+    border-radius: 10px;
+ background-color: silver;
+ color: black;
+ border: 1px solid none;
+ border-style: none;
+ width:100%;
+ margin-bottom: 13px;
+ height: 40px;
+}
+input[type="button"]:hover{
+ background-color: rgb(179, 250, 108);
+}
